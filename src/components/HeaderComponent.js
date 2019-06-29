@@ -60,6 +60,7 @@ class Header extends React.Component{
                     </div>
                 </Navbar>
                 </div>
+                
                 <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
                     <ModalHeader toggle={this.toggleModal}>Login</ModalHeader>
                     <Form onSubmit={(event)=>{
